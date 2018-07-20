@@ -1,0 +1,5 @@
+# the complete path of the file that contains the IP address of the DNS server
+
+cat /etc/resolv.conf
+
+# Deduction. The more information is going to be at scutil --dns to view the whole DNS configuration.

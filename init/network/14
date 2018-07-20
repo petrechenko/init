@@ -1,0 +1,5 @@
+# What file contains the local DNS entries
+
+less /etc/hosts
+
+# The computer file hosts is an operating system file that maps hostnames to IP addresses. MAC - /etc/hosts

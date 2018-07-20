@@ -1,0 +1,5 @@
+# the intra.42.fr address reroute to 46.19.122.85.
+
+echo "46.19.122.85  intra.42.fs" >> /etc/hosts
+
+# zsh: permission denied: /etc/hosts. As we are not administrators on the computers. 

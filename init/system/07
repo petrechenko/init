@@ -1,0 +1,6 @@
+# the PID of the SSHD service
+
+sudo service sshd status
+
+# PID - proportional–integral–derivative controller is a control loop feedback mechanism widely used in industrial control systems and a variety of other applications requiring continuously modulated control
+# A solid-state drive is a solid-state storage device that uses integrated circuit assemblies as memory to store data persistently.

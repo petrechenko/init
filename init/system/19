@@ -1,0 +1,6 @@
+# With the previous command, forbid all others IP
+
+sudo iptables -A INPUT -j REJECT
+
+# append this rule to the input chain (-A INPUT) so we look at incoming traffic
+# REJECT - Reject the packet and notify the sender that we did so, and stop processing rules in this chain.

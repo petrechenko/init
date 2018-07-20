@@ -1,0 +1,5 @@
+# the command that reboots the SSH service
+
+sudo service ssh restart
+
+#SSH-secure Shell-is a cryptographic network protocol for operating network services securely over an unsecured network.

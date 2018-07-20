@@ -1,0 +1,5 @@
+# an external DNS server on the slash16.org domain name
+
+nslookup slash16.org 8.8.8.8
+
+# nclookup - obtain domain name or IP address mapping or for any other specific DNS record "name server lookup"

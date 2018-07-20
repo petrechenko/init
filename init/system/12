@@ -1,0 +1,6 @@
+# the exact size of each folder of /var in a humanly understandable way followed by the path of it
+
+sudo du -s /var
+
+# du - disk usage. is a standard Unix program used to estimate file space usage—space used under a particular directory or files on a file system
+# -s, report only the sum of the usage in the current directory

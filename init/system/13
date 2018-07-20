@@ -1,0 +1,5 @@
+# the command that find, in real time, currently running processes
+
+ps ax | less
+
+#less - makes it scrollable

@@ -1,0 +1,5 @@
+# file contains the RSA keys of systems that are authorized to connect via SSH
+
+less /etc/ssh/sshd_config
+
+# RSA (Rivest–Shamir–Adleman) is one of the first public-key cryptosystems and is widely used for secure data transmission

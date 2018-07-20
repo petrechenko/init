@@ -1,0 +1,9 @@
+# Write a script which updates all the package sources, then all the packages, and then logs everything in a file named /var/log/update_script.log. Create a scheduled task for this script, once per week at 4 AM.
+
+echo "apt-get update -y && \
+apt-get upgrade -y >> /var/log/update_script.log" > dailyUpdate.sh
+chmod 755 dailyUpdate.sh
+sudo mv dailyUpdate.sh /etc/cron.daily
+0 4 * * 1 root /etc/cron.daily/dailyUpdate.sh" | crontab
+crontab -l
+

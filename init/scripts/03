@@ -1,0 +1,7 @@
+# Write a script which displays the list of files from the folder given as parameter, sorted by size
+
+ls -1S $1
+
+#-S sort by size
+# $1 as parametr
+# -1 not to put multiple files on a single line

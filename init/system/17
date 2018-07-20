@@ -1,0 +1,3 @@
+# the command which gives the list of firewall rules
+
+sudo iptables -S

@@ -1,0 +1,8 @@
+# Get the list of the network interfaces of the machine without displaying any detail for these interfaces. Only the list of names
+
+ifconfig -a | expand | cut -c1-8 | sort | uniq -u | awk -F: '{print $1;}'
+
+# cut -c1 -8 -extracts the first 8 char. of each line
+# expand - tabs - spaces
+# uniq -u -prints only unique lines which will remove the blank lines from the description lines which have only spaces in their first 8 characters
+# awk -F -the first field before a colom. splits its input lines on white space (by default) and saves each field as $1, $2 etc.
